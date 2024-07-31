@@ -79,6 +79,7 @@ class GFAlert: UIViewController {
             messageLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 20),
             messageLabel.leadingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -20),
             messageLabel.bottomAnchor.constraint(equalTo: actionButton.topAnchor, constant: -12)
+            
         ])
     }
     
